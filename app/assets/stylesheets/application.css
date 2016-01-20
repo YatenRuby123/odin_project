@@ -13,3 +13,250 @@
  *= require_tree .
  *= require_self
  */
+ 
+#container {
+    text-align: center;
+}
+
+#share {
+    padding: 3px 7px 3px 7px;
+    background-color: #f1f1f1;
+    border: 5px solid transparent;
+    margin-top: -8px;
+}
+
+#topbar ul li:first-child {
+    margin-top: -10px;
+}
+
+li {
+    float: right;
+    display: block;
+    padding: 0 0 0 18px;
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    margin: auto;
+    width: 35em;
+}
+
+#searchbar {
+    margin: auto;
+    padding-top: 15px;
+}
+
+input {
+    height: 30px;
+    width: 40em;
+}
+
+input[type="search" i] {
+    padding: 1px;
+}
+
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+    padding: 1px;
+    border: 2px inset;
+}
+
+input, textarea, keygen, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+}
+
+input, textarea, keygen, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+
+.button {
+    background-color: #f1f1f1;
+    font: bold 11px/27px Arial,sans-serif!important;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    padding: 3px 4px 3px 4px;
+    margin: 5px;
+    display: inline-block;
+}
+
+#bottombar {
+    background-color: #f2f2f2;
+    border-top: 2px solid #e4e4e4;
+    height: 40px;
+    clear: both;
+    position: relative;
+    margin-top: 215px;
+}
+
+#bottombar ul {
+    margin-left: 27px;
+    margin-top: 5px;
+}
+#bottomright {
+    margin-right: 27px;
+}
+ul {
+    list-style-type: none;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#bottombar a:link, #bottombar a:visited {
+    color: #666;
+}
+a:link, a:visited {
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+
+
+   body {
+                            font-size: large;
+                            font-family: arial, sans-serif;
+                            }
+                            
+                            a {
+                            text-decoration: none;
+                            }
+                            
+                            a:hover {
+                            text-decoration: underline;
+                            }
+                            
+                            /*The header links are black while the footer links are light grey*/
+                            a:link, a:visited {
+                            color: black;
+                            }
+                            
+                            #bottombar a:link, #bottombar a:visited {
+                            color: #666;
+                            }
+                            
+                            ul {
+                            list-style-type: none;
+                            }
+                            
+                            li {
+                            float: right;
+                            display: block;
+                            padding: 0 0 0 18px;
+                            }
+                            
+                            #topbar ul li:first-child {
+                            margin-top: -10px;
+                            }
+                            
+                            #share {
+                            padding: 3px 7px 3px 7px;
+                            background-color: #f1f1f1;
+                            border: 5px solid transparent;
+                            margin-top: -8px;
+                            }
+                            
+                            #share:hover {
+                            background-color: grey;
+                            }
+                            
+                            #container {
+                            margin: 10 0 0 0 auto;
+                            text-align: center;
+                            }
+                            
+                            #topbar {
+                            margin: 25px 40px 0 0;
+                            height: 100px;
+                            }
+                            
+                            #logo {
+                            margin: auto;
+                            width: 35em;
+                            }
+                            
+                            #searchbar {
+                            margin: auto;
+                            padding-top: 15px;
+                            }
+                            
+                            input {
+                            height: 30px;
+                            width: 40em
+                            }
+                            
+                            #searchOptions {
+                            margin-top:10px;
+                            }
+                            
+                            .button {
+                            background-color: #f1f1f1;
+                            font: bold 11px/27px Arial,sans-serif!important;
+                            border: 1px solid #dcdcdc;
+                            border-radius: 4px;
+                            padding: 3px 4px 3px 4px;
+                            margin: 5px;
+                            display: inline-block;
+                            }
+                            
+                            /*changing the border size is useful for mimicking raised buttons*/
+                            .button:hover, .searchbar:hover {
+                            border: 2px solid #dcdcdc;
+                            }
+                            
+                            #bottombar {
+                            background-color: #f2f2f2;
+                            border-top: 2px solid #e4e4e4;
+                            height: 40px;
+                            clear: both;
+                            position: relative;
+                            margin-top: 215px;
+                            }
+                            
+                            #bottombar ul {
+                            margin-left: 27px;
+                            margin-top: 5px
+                            }
+                            
+                            #bottomleft {
+                            float:left;
+                            }
+                            
+                            #bottomright {
+                            margin-right: 27px;
+                            }
